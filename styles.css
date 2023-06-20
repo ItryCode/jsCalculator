@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    background-color: blueviolet;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.display{
+    background-color: black;
+    width:400px;
+    height:150px;
+    flex-shrink:0;
+}
+.main-container{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+    
+    width:400px;
+    height:350px;
+    
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+}
+
+button{
+   height:40px;
+    width:100px;
+}
